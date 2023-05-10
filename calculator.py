@@ -46,3 +46,13 @@ def calculator():
         except ZeroDivisionError as e:
             print("Error:", e)
         else:
+            while True:
+                answer = input("Do you want to try again? (y/n): ")
+                if answer.lower() == "n":
+                    print("Thank you!")
+                    return
+                elif answer.lower() == "y":
+                    break
+                else:
+                    print("Invalid answer")
+                    
