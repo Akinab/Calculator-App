@@ -55,4 +55,4 @@ def calculator():
                     break
                 else:
                     print("Invalid answer")
-                    
+calculator()
