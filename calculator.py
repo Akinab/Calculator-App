@@ -4,3 +4,6 @@ def details ():
     print ("\nDescription: {}\nDate: {}".format (Description , Date))
     
 details ()
+
+def add(a, b):
+    return a + b
