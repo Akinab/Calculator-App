@@ -27,3 +27,4 @@ def calculator():
             print("2. Subtraction")
             print("3. Multiplication")
             print("4. Division")
+            choice = int(input("Enter your choice (1-4): "))
