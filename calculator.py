@@ -18,3 +18,12 @@ def divide(a, b):
     if b == 0:
         raise ZeroDivisionError("division by zero")
     return a / b
+
+def calculator():
+    while True:
+        try:
+            print("Please choose a math operation:")
+            print("1. Addition")
+            print("2. Subtraction")
+            print("3. Multiplication")
+            print("4. Division")
