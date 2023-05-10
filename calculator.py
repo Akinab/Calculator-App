@@ -41,3 +41,8 @@ def calculator():
             else:
                 result = divide(num1, num2)
             print("Result: ", result)
+        except ValueError as e:
+            print("Error:", e)
+        except ZeroDivisionError as e:
+            print("Error:", e)
+        else:
