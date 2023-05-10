@@ -28,3 +28,7 @@ def calculator():
             print("3. Multiplication")
             print("4. Division")
             choice = int(input("Enter your choice (1-4): "))
+            if choice not in [1, 2, 3, 4]:
+                raise ValueError("Invalid choice")
+            num1 = float(input("Enter first number: "))
+            num2 = float(input("Enter second number: "))
